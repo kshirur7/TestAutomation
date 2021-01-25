@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Eurowings Test Automation Suite" duration-ms="83128" started-at="2021-01-24T23:25:09 CET" finished-at="2021-01-24T23:26:32 CET">
+    <groups>
+    </groups>
+    <test name="Application test cases" duration-ms="83128" started-at="2021-01-24T23:25:09 CET" finished-at="2021-01-24T23:26:32 CET">
+      <class name="com.eurowings.qa.testcases.TC01VerifyFlightStatus">
+        <test-method status="PASS" signature="setExtent()[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="setExtent" is-config="true" duration-ms="314" started-at="2021-01-24T23:25:09 CET" finished-at="2021-01-24T23:25:09 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="setup" is-config="true" duration-ms="19881" started-at="2021-01-24T23:25:09 CET" finished-at="2021-01-24T23:25:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyFlightSearchToday()[pri:1, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="verifyFlightSearchToday" duration-ms="7220" started-at="2021-01-24T23:25:29 CET" finished-at="2021-01-24T23:25:36 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearchToday -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="tearDown" is-config="true" duration-ms="1579" started-at="2021-01-24T23:25:36 CET" finished-at="2021-01-24T23:25:38 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlightSearchToday status=SUCCESS method=TC01VerifyFlightStatus.verifyFlightSearchToday()[pri:1, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="setup" is-config="true" duration-ms="16590" started-at="2021-01-24T23:25:38 CET" finished-at="2021-01-24T23:25:54 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyFlightSearchTomorrow()[pri:2, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="verifyFlightSearchTomorrow" duration-ms="6968" started-at="2021-01-24T23:25:54 CET" finished-at="2021-01-24T23:26:01 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFlightSearchTomorrow -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="tearDown" is-config="true" duration-ms="1490" started-at="2021-01-24T23:26:01 CET" finished-at="2021-01-24T23:26:03 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyFlightSearchTomorrow status=SUCCESS method=TC01VerifyFlightStatus.verifyFlightSearchTomorrow()[pri:2, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="setup" is-config="true" duration-ms="17082" started-at="2021-01-24T23:26:03 CET" finished-at="2021-01-24T23:26:20 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="verifyUpdateStatus()[pri:3, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="verifyUpdateStatus" duration-ms="9365" started-at="2021-01-24T23:26:20 CET" finished-at="2021-01-24T23:26:29 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUpdateStatus -->
+        <test-method status="PASS" signature="tearDown(org.testng.ITestResult)[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="tearDown" is-config="true" duration-ms="1615" started-at="2021-01-24T23:26:29 CET" finished-at="2021-01-24T23:26:31 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=verifyUpdateStatus status=SUCCESS method=TC01VerifyFlightStatus.verifyUpdateStatus()[pri:3, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="endReport()[pri:0, instance:com.eurowings.qa.testcases.TC01VerifyFlightStatus@63e2203c]" name="endReport" is-config="true" duration-ms="944" started-at="2021-01-24T23:26:31 CET" finished-at="2021-01-24T23:26:32 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- com.eurowings.qa.testcases.TC01VerifyFlightStatus -->
+    </test> <!-- Application test cases -->
+  </suite> <!-- Eurowings Test Automation Suite -->
+</testng-results>

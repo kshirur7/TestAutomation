@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Eurowings Test Automation Suite]">
+  <test thread-count="5" verbose="0" name="Application test cases(failed)">
+    <classes>
+      <class name="com.eurowings.qa.testcases.TC01VerifyFlightStatus">
+        <methods>
+          <include name="setup"/>
+          <include name="endReport"/>
+          <include name="tearDown"/>
+          <include name="setExtent"/>
+          <include name="VerifyTodayFlightstatus"/>
+        </methods>
+      </class> <!-- com.eurowings.qa.testcases.TC01VerifyFlightStatus -->
+    </classes>
+  </test> <!-- Application test cases(failed) -->
+</suite> <!-- Failed suite [Eurowings Test Automation Suite] -->
